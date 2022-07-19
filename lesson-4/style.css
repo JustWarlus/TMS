@@ -23,6 +23,7 @@ body {
     height: 800px;
     display: flex;
     max-height: 800px;
+    font-family: 'Lato', sans-serif;
 }
 
 .close {
@@ -364,4 +365,111 @@ input {
 .write-message input {
     margin: 0 20px;
     width: 650px
+}
+
+.chat-window {
+    margin: 0 23px;
+}
+
+.message {
+    display: flex;
+   
+    margin: 10px 0;
+}
+
+.message-info {
+    display: flex;
+}
+
+.message-name {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+     color: #000000;
+}
+
+.message-date{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8D8D8D;
+    margin-left: 8px;
+}
+
+.message-text.link-active{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #3577EF;
+}
+
+.message-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.message-photo {
+    margin-right: 10px;
+}
+
+.line-data {
+    padding: 0 15px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #8D8D8D;
+    
+    min-width: max-content;
+}
+
+.diff-message {
+    display: flex;
+    align-items: center;
+    
+}
+
+.line-item {
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.16);
+    width: 100%;
+}
+
+.image-message {
+    margin-top: 10px;
+    position: relative;
+    width: fit-content;  
+    height: fit-content;  
+}
+
+
+.likes-message{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    right: -22px;
+    width: 29px;
+    height: 25px;
+    bottom: -10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.14);
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.user-profile {
+    max-height: 800px;
 }
